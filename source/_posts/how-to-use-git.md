@@ -82,3 +82,37 @@ $ git reset --hard <Chaged-Id>
 $ git log
 # 按q退出
 ```
+
+## git 问题集锦
+
+###一、  设置git push时的upstream
+1. 命令修改
+
+ ```bash
+git remte origin set-url [remote_URL]
+ ```
+
+2. 先删除后添加
+
+ ```bash
+git remote rm origin
+git remote add origin git@github.com:FrankFan/foobar.git
+ ```
+可通过`git remote -v`命令查看远程地址.
+
+3.  直接修改config文件
+修改项目跟目录下`.git/config`文件
+
+### 二、`git push`出现 `fatal: The remote end hung up unexpectedly` 错误
+![](http://images.cnitblog.com/blog/282019/201501/212355499534868)
+
+这其实是一个`HTTP 411`错误，提示信息没有给完整，是因为是由于上传的包过大 HTTP 的头出错导致的，
+解决办法是将HTTP包头设置大一些，50MB应该可以满足项目需求
+
+```bash
+git config http.postBuffer 524288000
+```
+
+配置完毕就正常了
+
+![](http://images.cnitblog.com/blog/282019/201501/212357422976424)
