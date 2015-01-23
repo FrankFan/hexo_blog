@@ -1,4 +1,4 @@
-title: 作用域和闭包
+title: js作用域和闭包
 date: 2015-01-15 23:13:34
 categories: javascript
 ---

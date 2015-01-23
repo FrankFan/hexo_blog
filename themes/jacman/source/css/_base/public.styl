@@ -117,3 +117,27 @@ input[type="search"]::-webkit-search-decoration
 .fadeOut
   animation-name fadeOut
 
+.swing
+    display: block;
+    position: relative;
+    /*left: 50px;*/
+    /*margin: 0px auto;*/
+    margin-top: 35px;
+    padding: 10px;
+    -webkit-animation-name: swing;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+
+
+@-webkit-keyframes swing 
+    from 
+        -webkit-transform:rotate(-20deg)
+    
+    50% 
+        -webkit-transform:rotate(20deg)
+    
+    to 
+        -webkit-transform:rotate(-20deg)
+    
+
