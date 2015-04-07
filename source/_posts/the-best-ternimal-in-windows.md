@@ -38,7 +38,7 @@ P.S.  Mac党、Linux党请飘过~
 
 ![](http://images.cnitblog.com/blog2015/282019/201504/071832381963112)
 
-## 快捷键
+### 快捷键
 
 - 选择文本：`Shift + Left Mouse`
 - 选择一个单词：`Shift + Double Click`
