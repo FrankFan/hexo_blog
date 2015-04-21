@@ -44,7 +44,8 @@ categories: 前端
 
 2. js数据类型
 说出`null`、`undefined`和`NaN`的区别
-> `null` 是对象类型，因为typeof(null)返回`object`
+
+>`null` 是对象类型，因为typeof(null)返回`object`
 `undefined`是值类型， typeof(undefined)返回 `undefined`
 `NaN`是window对象的一个全局属性，typeof(NaN)返回`number`，所以它是简单类型。
 
@@ -56,6 +57,7 @@ categories: 前端
     }, 0)
     console.log('3');
     ```
+
 > 输出 1,3,2 而不是1,2,3 因为setTimeout会不论第二个参数是不是0都会放到程序最后执行
 
 ![](http://images.cnitblog.com/blog/282019/201501/100051337659883)

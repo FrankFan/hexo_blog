@@ -4,7 +4,7 @@ categories: 前端
 ---
 
 ### 认识SASS/Compass
-ruby不用说了吧，大家都知道，是一种程序语言，可以用来写server端代码。
+ruby不用说了吧，大家都知道，是一种很火的程序语言。
 
 SASS是对CSS的预处理器，提供了许多便利的写法，它具有某些编程的思想（比如变量、嵌套、函数、运算等等），通过它再生成相应的CSS，使得CSS的开发，变得简单和可维护。而Comapss是基于SASS的一个库，Compass相对于SASS的关系大致相当于 JQuery：JS的关系。
 
