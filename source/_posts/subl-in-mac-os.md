@@ -21,6 +21,8 @@ categories: mac
 
 ### 第二步 创建链接
 
+`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
+
 然后执行链接命令， 接着编辑 ~/.bash_profile 文件，
 
 ```shell
