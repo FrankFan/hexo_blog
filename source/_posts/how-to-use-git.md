@@ -54,10 +54,10 @@ $ git branch
 $ git branch --all
 
 # 删除分支
-$ git brach -d xxx
+$ git branch -d xxx
 
 # 切换分支（第一次克隆后可以从master分支切换到develop分支）
-$ git brach checkout xxx
+$ git checkout -b xxx
 
 # 撤销文修改
 $ git checkout -- <file>
@@ -66,7 +66,7 @@ $ git checkout -- <file>
 $ gitk
 
 # 合并当前分支到myBranch
-$ git merger myBranch
+$ git merge myBranch
 
 # git修改上一次提交（不小心写错了）
 $ git commit --amend
