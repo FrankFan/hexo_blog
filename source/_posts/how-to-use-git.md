@@ -89,7 +89,7 @@ $ git log
 1. 命令修改
 
  ```bash
-git remte origin set-url [remote_URL]
+git remote origin set-url [remote_URL]
  ```
 
 2. 先删除后添加
