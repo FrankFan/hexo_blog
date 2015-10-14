@@ -6,9 +6,10 @@ categories: javascript
 ECMAScript5标准发布于2009年12月3日，它带来了一些新的，改善现有的Array数组操作的方法。
 如果不考虑兼容性的话可以大面积使用了。
 
-在ES5中，Array一共有9个方法：
+在ES5中，Array一共有10个方法：
 
 ```javascript
+Array.isArray
 Array.prototype.indexOf
 Array.prototype.lastIndexOf
 Array.prototype.every
@@ -20,6 +21,32 @@ Array.prototype.reduce
 Array.prototype.reduceRight
 ```
 
+
+## 0. Array.isArray(value)
+
+Array.isArray() 方法用来判断某个值是否为数组。如果是，则返回 true，否则返回 false
+
+```javascript
+// 下面的函数调用都返回 true
+Array.isArray([]);
+Array.isArray([1]);
+Array.isArray(new Array());
+// 鲜为人知的事实：其实 Array.prototype 也是一个数组。
+Array.isArray(Array.prototype); 
+
+// 下面的函数调用都返回 false
+Array.isArray();
+Array.isArray({});
+Array.isArray(null);
+Array.isArray(undefined);
+Array.isArray(17);
+Array.isArray('Array');
+Array.isArray(true);
+Array.isArray(false);
+Array.isArray({ __proto__: Array.prototype });
+```
+
+[具体参考MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
 ## 1. .indexOf(element) / .lastIndexOf(element)
 `indexOf`方法返回元素在数组中的第一个位置的索引，如果不存在返回"-1"
@@ -206,10 +233,92 @@ console.log(a); //[1, 2, 3, 4, 5, 6]
 ```
 
 
-## 5. .reduce(function(v1,v2),value) / .reduceRight(function(v1,v2),value)
+## 5. .reduce(function(v1,v2),initialValue) / .reduceRight(function(v1,v2),initialValue)
 
-todo...
+`reduce()`可以实现一个累加器的功能，将数组的每个值（从左到右）将其降低到一个值。
+遍历数组，调用回调函数，`将数组元素组合成一个值返回`,
+reduce从索引最小值开始，reduceRight反向，方法有两个参数。
+
+1. 回调函数：把两个值合为一个，返回结果;
+2. initialValue，一个初始值,可选。
 
 
+举个例子：
+```javascript
+var a = new Array(1, 2, 3, 4, 5, 6);
 
+var a2 = a.reduce(function(v1, v2) {
+    return v1 + v2;
+});
+
+var a3 = a.reduceRight(function(v1, v2) {
+    return v1 - v2;
+}, 100);
+
+console.log(a2); // 21
+console.log(a3); // 79
+```
+
+再举个例子： 统计一个数组中每个单词出现的次数。
+
+不使用 `.reduce()`:
+```javascript
+var arr = ["apple", "orange", "apple", "orange", "pear", "orange"];
+
+function getWordCnt() {
+    var obj = {};
+
+    for (var i = 0, l = arr.length; i < l; i++) {
+        var item = arr[i];
+        obj[item] = (obj[item] + 1) || 1;
+    }
+
+    return obj;
+}
+
+console.log(getWordCnt()); // { apple: 2, orange: 3, pear: 1 }
+```
+
+使用`.reduce()`：
+```javascript
+var arr = ["apple", "orange", "apple", "orange", "pear", "orange"];
+
+function getWordCnt() {
+    return arr.reduce(function(prev, next) {
+        prev[next] = (prev[next] + 1) || 1;
+        return prev;
+    }, {}); // 传递一个初始值{}
+}
+
+console.log(getWordCnt()); // { apple: 2, orange: 3, pear: 1 }
+```
+
+
+最后再来一个例子， 加深理解传递初始值和不传初始值的区别：
+```javascript
+var arr = ["apple","orange"];
+
+function noPassValue(){
+    return arr.reduce(function(prev,next){
+        console.log("prev:",prev);
+        console.log("next:",next);
+        
+        return prev + " " +next;
+    });
+}
+function passValue(){
+    return arr.reduce(function(prev,next){
+        console.log("prev:",prev);
+        console.log("next:",next);
+        
+        prev[next] = 1;
+        return prev;
+    },{});
+}
+
+console.log("No Additional parameter:",noPassValue());
+console.log("----------------");
+console.log("With {} as an additional parameter:",passValue());
+
+```
 
