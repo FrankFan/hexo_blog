@@ -117,4 +117,4 @@ stylus:
 deploy:
   type: github
   repository: https://github.com/FrankFan/frankfan.github.io.git
-  branch: win7
+  branch: master
