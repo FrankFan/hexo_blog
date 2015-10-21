@@ -18,10 +18,7 @@ category :
     "hobby": [
         {            
             "programming": [
-                {
-                    "first": "javascript",
-                    "second": "csharp"
-                }
+                "javascript", "csharp", "nodejs", "php", "sql"
             ]
         },
         {

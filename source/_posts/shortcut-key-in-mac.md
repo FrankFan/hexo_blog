@@ -16,6 +16,9 @@ categories: mac
 删除一个单词    `option + delete`
 光标移动一个单词 `option + ←` 或者 `option + →`
 
+## 截屏
+全屏截图自动保存为文件 `cmd + shift + 3`
+区域截图自动保存为文件 `cmd + shift + 4`，这里有个小技巧，按下`cmd + shift + 4`后单击空格键，会出现一个相机的icon，表示自动捕捉这个区域。
 
 
 ## Terminal 终端
