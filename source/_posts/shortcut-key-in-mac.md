@@ -1,15 +1,17 @@
-title: Mac 快捷键整理
+title: Mac 常用快捷键整理
 date: 2015-07-28 08:21:38
 categories: mac
 ---
 
 ## 文本编辑
-适用于文本编辑器，浏览器等
+以下适用于文本编辑器，浏览器等：
 
 跳到页首  `cmd` + `↑`  类似windows下的 `ctrl + home`
 跳到页尾  `cmd` + `↓`  类似windows下的 `ctrl + end`
 光标移到行首  `cmd` + `←`  类似windows下的 `home`
 光标移到行尾  `cmd` + `→`  类似windows下的 `end`
+选择一行  `cmd` + `shift` + `→` 或 `cmd` + `shift` + `→` 
+选择一个单词  `option` + `shift` + `←` 或 `option` + `shift` + `→` 
 向上滚一屏 `fn` + `↑`
 向下滚一屏 `fn` + `↓`
 删除一整行文字  `cmd + delete`
@@ -20,6 +22,15 @@ categories: mac
 全屏截图自动保存为文件 `cmd + shift + 3`
 区域截图自动保存为文件 `cmd + shift + 4`，这里有个小技巧，按下`cmd + shift + 4`后单击空格键，会出现一个相机的icon，表示自动捕捉这个区域。
 
+## 窗口
+关闭当前窗口  `cmd + w`
+退出当前程序  `cmd + q`
+最小化窗口  `cmd + m`
+切换窗口程序  `cmd + tab`
+快速显示桌面  `cmd + F3`
+显示当前程序缩略图  `ctl + F3`
+显示桌面和缩略图  `F3` 
+显示Dashboard  `F4` 
 
 ## Terminal 终端
 
@@ -73,7 +84,6 @@ java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemg
 ![](http://images2015.cnblogs.com/blog/282019/201509/282019-20150908132558965-1931754023.jpg)
 
 
-
 ## 网络相关
 
 ```bash
@@ -91,8 +101,11 @@ $ nslookup lujs.cn
 
 新建一个Tab  `cmd` + `T`
 关闭一个Tab  `cmd` + `W`
-打开开发者工具，Mac下F12不管用 `cmd` + `option` + `I`
+打开开发者工具，`cmd` + `option` + `I` Mac下F12不管用,因为系统默认把`F12`分配给了音量
 查看源代码  `cmd` + `option` + `U`
+调试js - step over `cmd` + `\`
+调试js - step in `cmd` + `;`
+调试js - step out `cmd` + `'`
 快速定位Tab  `cmd` + `1/2/3/等`
 向左切换Tab顺序  `cmd` + `shift` + `{`
 向右切换Tab顺序  `cmd` + `shift` + `}`
