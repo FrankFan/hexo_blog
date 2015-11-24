@@ -67,7 +67,7 @@ categories: 前端
 参考资料：[http://www.infoq.com/cn/news/2011/09/js-promise/](http://www.infoq.com/cn/news/2011/09/js-promise/)
 
 5. requirejs 如何加载非模块化js类库 ?
-首先需要会手动配置require js，(`paths`)然后遇到非模块化的问题使用`shim方式`配置。    
+首先需要会手动配置require js，(`paths`)然后遇到非模块化的问题使用`shim方式`配置。
 
 
 ## 前端工作流

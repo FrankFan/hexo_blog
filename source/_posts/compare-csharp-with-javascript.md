@@ -40,7 +40,7 @@ string jsonStr = JSON.stringify(arrData);
 
 ## 声明对象
 
-C# 创建匿名对象
+C# 创建对象
 ```csharp
 var studentInfo = new 
 {
@@ -49,7 +49,7 @@ var studentInfo = new
 };
 ```
 
-Javascript创建匿名对象
+Javascript创建对象
 
 ```javascript
 var studentInfo = {

@@ -9,7 +9,7 @@ Javascript中的事件可以和html交互。
 
 事件流
 **IE&Opera**：事件冒泡 
-**其他**浏览器： 事件捕获
+**其他** 浏览器： 事件捕获
 
 **事件冒泡**：事件由最具体的元素（文档中嵌套层次最深的那个节点）接收，然后逐级向上传播至最不具体的那个节点（文档）。
 
@@ -33,6 +33,7 @@ Javascript中的事件可以和html交互。
 DOM2级事件定义了2个方法：
 用于处理指定和删除事件处理程序的操作：addEventListener() 和 removeEventListener()
 都接收三个参数：要处理的事件名、作为事件处理程序的函数和布尔值（true：表示在事件捕获阶段调用事件处理程序 false：表示事件在事件冒泡阶段调用事件处理程序）。
+
 
 ```javascript
 var btn3 = document.getElementById('btn3');
