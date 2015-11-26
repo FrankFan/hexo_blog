@@ -25,7 +25,9 @@ $(document).ready(function(){
 
 ![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151020203443645-1667364741.jpg)
 
-截止到2015年10月20日晚，[http://www.kuaidadi.com/assets/js/animate.js](http://www.kuaidadi.com/assets/js/animate.js)还可以访问。
+截止到2015年10月20日晚还可以访问:
+[http://www.kuaidadi.com/assets/js/animate.js](1)
+ 
 
 『快的』用线上代码为我们生动的演示了什么叫`callback hell`——『回调地狱』。
 
@@ -91,3 +93,6 @@ Promise对象的运行结果，最终只有两种。
 > [JavaScript Promises](http://www.html5rocks.com/zh/tutorials/es6/promises/)
 > [javascript.ruanyifeng.com](http://javascript.ruanyifeng.com/advanced/promise.html)
 > [Promise/A+规范](http://segmentfault.com/a/1190000002452115)
+
+
+[1]: http://www.kuaidadi.com/assets/js/animate.js

@@ -121,3 +121,12 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
 baidu_tongji: true
+
+# Extensions
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+theme: jacman
+exclude_generator:
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
