@@ -8,10 +8,13 @@ categories: 前端
 
 1. 一道页面布局题
     有个web页面，分为左右结构，左边是一张宽度固定的图片；右边是一个宽度自适应的div，div中有很多其他元素从上到下依次排列。要写出html和css
-    > 我用的float进行布局，但是这样是有问题的，右侧盒子宽度100%就没办法自适应了。
-    正确的做法用`Flexbox弹性盒子`布局
+
+    > 方法有很多种，可以用float布局，也可以用position布局，如果能回答出来flexbox就更棒了，可以再延伸到浏览器兼容性等问题。
     
-    这个弹性盒子是CSS3的新特性，之前看到过没有深入研究，感觉还不太成熟，好多浏览器支持的也不是很好，可是如果是移动端使用还是比较适合的，之后再研究下吧
+    float例子：xxxxxx
+    position例子： xxxxx
+    flexbox例子： xxxxx
+
 
 2. 如何看出是html4还是html5 ?
 > 通过html第一行的`doctype`来区分
@@ -21,6 +24,10 @@ categories: 前端
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!DOCTYPE HTML>
 ```
+
+`doctype`是什么？有什么用？
+
+
 
 
 ## Javascript 相关
