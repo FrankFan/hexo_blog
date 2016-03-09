@@ -26,6 +26,11 @@ $ git --version
 # 查看git版本
 $ git --version
 
+# 设置username 和 email
+$ git config --global user.name 'username'
+$ git config --global user.email 'email'
+
+$ 
 # 初始化一个git仓库
 $ git init
 
