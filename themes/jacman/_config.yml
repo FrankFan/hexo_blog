@@ -81,7 +81,7 @@ author:
 
 #### Comment
 duoshuo: 
-  enable: true  ## duoshuo.com
+  enable: false  ## duoshuo.com
   short_name: oobigo   ##e.g. wuchong   for duoshuo short name.
 
 disqus:
@@ -109,7 +109,7 @@ google_cse:
 highlight: 
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 #### Analytics
