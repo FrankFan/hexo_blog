@@ -1,6 +1,6 @@
 title: About Me
 date: 2014-08-30 17:28:56
-category : 
+category :
 ---
 
 
@@ -16,7 +16,7 @@ category :
         "city": "ShangHai"
     },
     "hobby": [
-        {            
+        {
             "programming": [
                 "javascript", "csharp", "nodejs", "php", "sql"
             ]
@@ -41,4 +41,4 @@ category :
 ```
 
 
-+ Email: ![](http://images.cnitblog.com/blog/282019/201408/301733080016875)
++ Email: ![](https://ws3.sinaimg.cn/large/006tNc79gy1fsboxaprhpj304700ljra.jpg)
