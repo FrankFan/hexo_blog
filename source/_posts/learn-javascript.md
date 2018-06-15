@@ -361,7 +361,7 @@ doThing(cars[4]);
 
 而是：
 ```javascript
-for (var i=0; i < cars.length; i++) { 
+for (var i=0; i < cars.length; i++) {
     doThing(cars[i]);
 }
 ```
@@ -550,7 +550,7 @@ var language = {
     },
  // Yes, objects can be nested!
     getAuthorFullName: function(){
-        return this.author.firstName + this.author.lastName;    
+        return this.author.firstName + this.author.lastName;
     }
  // Yes, functions can be values too!
 };
@@ -562,7 +562,7 @@ var variable = language.name;
 // variable now contains "JavaScript" string.
 variable = language['name'];
 /* The lines above do the same thing. The difference is that the second one lets you use litteraly any string as a property name, but it's less readable. */
-variable = language.newProperty; 
+variable = language.newProperty;
 // variable is now undefined, because we have not assigned this property yet.
 ```
 
@@ -669,6 +669,7 @@ var prototypeAge = child.age;
 ```
 
 ### 枚举
+
 `for in`语句可以遍历对象中的每个属性，枚举包含函数和原型属性。
 
 ```javascript
@@ -711,6 +712,6 @@ var myCounter = {
 
 这个模块现在只有一个变量——`myCounter`。如果这个页面上的其他模块使用诸如`number`或者`isGreaterThanTen`这样的变量也是绝对安全的，因为我们不会覆盖彼此的值。
 
-![](http://images.cnitblog.com/blog/282019/201409/282318313899917)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyx4n056j30m809ujsg.jpg)
 
 > 全文完。

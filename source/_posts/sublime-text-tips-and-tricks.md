@@ -16,14 +16,14 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ```
 3.确认安装成功
 快捷键`ctrl+shift+P`打开Package Contrl，说明成功了
-![](http://images.cnitblog.com/blog/282019/201309/20231253-b4d749b6657048a190d516f70ba7417e.png)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbz0wutprj30bd0caglo.jpg)
 
 如果是`sublime text 3`, 安装`package control`代码如下：
 ```python
-import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = 
-sublime.installed_packages_path(); urllib.request.install_opener( 
-urllib.request.build_opener( urllib.request.ProxyHandler()) ); 
-open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp =
+sublime.installed_packages_path(); urllib.request.install_opener(
+urllib.request.build_opener( urllib.request.ProxyHandler()) );
+open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen(
 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
@@ -33,7 +33,7 @@ open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen(
 1)`ctrl+Shift+P` 呼出 `Package Control`，
 2)输入`Install Package`，等待片刻，
 3)然后`IMESurport`，就可以安装好了。
-![](http://images.cnitblog.com/blog/282019/201309/24111720-ed58ca912c66425ca39770105e18aff7.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbz114pk2j30tc0lajs3.jpg)
 
 2.中文支持
 如果遇到使用sublime text打开中文文件出现乱码的情况，可以尝试安装`ConvertToUTF8` 和  `GBK Encoding Support` 这2个插件。
@@ -54,7 +54,7 @@ open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen(
 	<title>Document</title>
 </head>
 <body>
-	
+
 </body>
 </html>
 ```
@@ -92,6 +92,32 @@ open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen(
 </ul>
 ```
 
+6.`DocBlockr`很好用，不仅仅可以自动生成注释，还可以手动控制注释的格式。
+
+安装方法：
+`Cmd+Shift+P` -> `Install Package` -> `docblockr`
+
+自定义配置：
+`Preference` -> `Package Settings` -> `DocBlockr` -> `Settings - User`
+
+配置成如下内容：
+```js
+{
+    "jsdocs_extra_tags":[
+        "@Author Hybrid",
+        "@DateTime {{date}}",
+        "@copyright ${1:[copyright]}",
+        "@license ${1:[license]}",
+        "@version ${1:[version]}"
+    ],
+    "jsdocs_function_description": false
+}
+```
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyqkz9nkg30fv0cgmya.gif)
+
+参考： [https://github.com/spadgos/sublime-jsdocs/](https://github.com/spadgos/sublime-jsdocs/)
+
 更详细使用方法参考官方指南：[http://docs.emmet.io/](http://docs.emmet.io/)
 
 ## 常用快捷键推荐
@@ -121,4 +147,53 @@ open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen(
 关闭单个标签 `ctrl + w`
 
 
-![](http://images.cnitblog.com/blog/282019/201412/142029584622910)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbz16sy38j30ge02j3yd.jpg)
+
+
+
+## macOS 中使用subl命令
+
+[官方文档](https://www.sublimetext.com/docs/3/osx_command_line.html)
+
+按照官方文档执行命令：
+
+`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/`
+
+
+### 增加关闭所有标签功能
+
+打开 `Sublime Text` -> `Preferences` -> 'Key Bindings - User', 加入一行自定义快捷键：
+
+```js
+[
+    { "keys": ["ctrl+q"], "command": "close_all" }
+]
+```
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyzoeyohg30jn02sdg2.gif)
+
+
+### 修改用户设置
+
+打开 `Sublime Text` -> `Preferences` -> 'Settings - User', 加入：
+
+```js
+{
+    // 滚动到底
+    "scroll_past_end": true,
+    // 双击选中又横杠(中划线)连接的单词
+    "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+}
+
+```
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyztk18jg30dc05n3z0.gif)
+
+
+## 换一个清爽的主题 —— Material-Theme
+[https://github.com/equinusocio/material-theme](https://github.com/equinusocio/material-theme)
+[https://github.com/equinusocio/material-theme-appbar](https://github.com/equinusocio/material-theme-appbar)
+
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbymnighmj31kw0yb7hi.jpg)
+

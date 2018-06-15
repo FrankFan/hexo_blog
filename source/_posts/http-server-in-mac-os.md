@@ -20,7 +20,7 @@ Mac是一个对开发者特别友好的操作系统，除了好看的UI、好用
 
 python会以当前目录作为根目录起一个本地server, 根据终端的反馈比如访问`localhost:8000`就可以看到效果了。
 
-![](http://images2015.cnblogs.com/blog/282019/201512/282019-20151208194159480-1498313497.png)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyua0yg2j30hm0bnjs6.jpg)
 
 
 ## PHP 自带web server
@@ -34,7 +34,7 @@ python会以当前目录作为根目录起一个本地server, 根据终端的反
 支持远程访问
 `php -S 0.0.0.0:8080 -t /www`
 
-![](http://images2015.cnblogs.com/blog/282019/201512/282019-20151208195302386-395401372.png)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyueg1juj30hm0bngms.jpg)
 
 ## nodejs
 
@@ -68,6 +68,6 @@ $ sudo apachectl stop
 
 默认wwww跟目录在`/Library/WebServer/Documents`, apache的安装目录在`/etc/apache2`.
 
-![](http://images2015.cnblogs.com/blog/282019/201512/282019-20151208201626402-1471863449.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyujgf7cj30hm0bnq3x.jpg)
 
 以上所说的Server用于个人测试及小网站的开发是没有任何问题的，不过生产发布时大型应用还是要配合Nginx或Apache以达到最高效率。

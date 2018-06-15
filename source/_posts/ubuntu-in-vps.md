@@ -5,6 +5,7 @@ categories: Server
 
 买了一个VPS，选择了Ubuntu12.04 LTS 作为操作系统，下面介绍下做过的一些配置，记录一下。
 
+<!-- more -->
 
 ```bash
 # 登录到VPS
@@ -75,7 +76,7 @@ $ apt-get install curl
 # 安装 node
 $ apt-get install nodejs
 
-# 安装 npm 
+# 安装 npm
 $ apt-get install npm
 
 # 可以使用一下命令检测是否安装成功

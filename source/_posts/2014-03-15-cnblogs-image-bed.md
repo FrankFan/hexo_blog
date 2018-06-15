@@ -3,6 +3,10 @@ date: 2014-03-15 23:01:34
 categories: myworks
 ---
 
+本文介绍一款小工具：博客园图床的开发过程
+
+<!-- more -->
+
 ## 说明
 俗话说：好记性不如烂笔头。工作中会遇到各种各样的需求，各种各样的任务，可能当时完成了，但过一段时间回头看发现连自己都不知道当初写的代码是啥意思。大脑是用来思考的，不是用来存储记忆的。所以要经常记录一下自己的想法，以免过一段时间淡忘。
 
@@ -65,7 +69,7 @@ categories: myworks
 * 对服务器返回的json对象反序列化
 * 方法封装，一个函数只做一件事
 
-源代码放在Github上，地址 [https://github.com/FrankFan/CnblogsImageBed](https://github.com/FrankFan/CnblogsImageBed) 
+源代码放在Github上，地址 [https://github.com/FrankFan/CnblogsImageBed](https://github.com/FrankFan/CnblogsImageBed)
 欢迎拍砖。
 
 当然你可以下载 [exe文件](https://github.com/FrankFan/CnblogsImageBed/releases/download/v2.0/CnblogsImageBed.exe) 使用博客园账号登录即可使用，你值得拥有 ：)
@@ -75,10 +79,10 @@ categories: myworks
 P.S. 希望dudu看到了不会介意，毕竟这个小工具使用者不多，不会对博客园造成压力的，而且还会增加注册量哦~ ：）
 
 
-  [1]: http://images.cnitblog.com/other/282019/201403/151439438553796
-  [2]: http://images.cnitblog.com/other/282019/201403/151442576052938
-  [3]: http://images.cnitblog.com/other/282019/201403/151444083246499
-  [4]: http://images.cnitblog.com/other/282019/201403/151448179803028
-  [5]: http://images.cnitblog.com/other/282019/201403/200025517407526
-  [6]: http://images.cnitblog.com/other/282019/201403/151506322931344
+[1]: http://images.cnitblog.com/other/282019/201403/151439438553796
+[2]: http://images.cnitblog.com/other/282019/201403/151442576052938
+[3]: http://images.cnitblog.com/other/282019/201403/151444083246499
+[4]: http://images.cnitblog.com/other/282019/201403/151448179803028
+[5]: http://images.cnitblog.com/other/282019/201403/200025517407526
+[6]: http://images.cnitblog.com/other/282019/201403/151506322931344
 

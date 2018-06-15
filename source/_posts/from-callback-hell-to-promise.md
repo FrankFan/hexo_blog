@@ -9,25 +9,15 @@ categories: javascript
 
 由于 javascript 的单线程性质，必须等待上一个事件执行完成才能处理下一步。传统解决 javascript 异步编程的方法就是使用 callback，比如这样：
 
-```js
-$(document).ready(function(){
-    ajaxGet('/api/userinfo', function() {
-        ajaxGet('/api/productList', function() {
-            ajaxGet('/api/ads', function(result) {
-                console.log('all done!');
-            });
-        });
-    });
-});
-```
+![](https://ws3.sinaimg.cn/large/006tNc79ly1fsc1axbripj30ar051t94.jpg)
 
 再比如这样：
 
-![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151020203443645-1667364741.jpg)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbzmykdtgj31750i8wgg.jpg)
 
 截止到2015年10月20日晚还可以访问:
-[http://www.kuaidadi.com/assets/js/animate.js](1)
- 
+[http://www.kuaidadi.com/assets/js/animate.js](http://www.kuaidadi.com/assets/js/animate.js)
+
 
 『快的』用线上代码为我们生动的演示了什么叫`callback hell`——『回调地狱』。
 
@@ -72,7 +62,7 @@ Promise 是一种异步操作模式，表示一个异步操作的最终结果，
 
 看，『横向的胖子』变的苗条了，看起来是不是更加可爱呢？
 
-Promise有个一个规范叫做 [Promises/A+](https://github.com/promises-aplus/promises-spec),  有各种各样的第三方库遵循这个规范实现了 Promise/A+ 。 比如 [Q](https://github.com/kriskowal/q)、 [when](https://github.com/cujojs/when), jQuery 有个类似的方法叫 [Deferred。](http://api.jquery.com/category/deferred-object/) 
+Promise有个一个规范叫做 [Promises/A+](https://github.com/promises-aplus/promises-spec),  有各种各样的第三方库遵循这个规范实现了 Promise/A+ 。 比如 [Q](https://github.com/kriskowal/q)、 [when](https://github.com/cujojs/when), jQuery 有个类似的方法叫 [Deferred。](http://api.jquery.com/category/deferred-object/)
 
 
 一个 Promise 对象的实例一般有三种状态：未完成（pending）、已完成（fulfilled）和失败（rejected）。
@@ -88,11 +78,8 @@ Promise对象的运行结果，最终只有两种。
 
 ## 参考阅读
 
-> [JavaScript Promise启示录](http://www.alloyteam.com/2014/05/javascript-promise-mode/)
-> [JavaScript Promise迷你书（中文版）](http://liubin.github.io/promises-book/)
-> [JavaScript Promises](http://www.html5rocks.com/zh/tutorials/es6/promises/)
-> [javascript.ruanyifeng.com](http://javascript.ruanyifeng.com/advanced/promise.html)
-> [Promise/A+规范](http://segmentfault.com/a/1190000002452115)
-
-
-[1]: http://www.kuaidadi.com/assets/js/animate.js
+ 1. [JavaScript Promise启示录](http://www.alloyteam.com/2014/05/javascript-promise-mode/)
+ 2. [JavaScript Promise迷你书（中文版）](http://liubin.github.io/promises-book/)
+ 3. [JavaScript Promises](http://www.html5rocks.com/zh/tutorials/es6/promises/)
+ 4. [javascript.ruanyifeng.com](http://javascript.ruanyifeng.com/advanced/promise.html)
+ 5. [Promise/A+规范](http://segmentfault.com/a/1190000002452115)

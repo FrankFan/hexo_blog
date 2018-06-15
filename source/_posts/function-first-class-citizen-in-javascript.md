@@ -155,7 +155,7 @@ myObject2(); // output 'window对象'
 
 ```javascript
 var foo = function foo() {
-	console.log(arguments.callee); // output 
+	console.log(arguments.callee); // output
 	// callee 可以用于对foo函数进行递归调用（例如，arguments.callee()）
 }();
 ```
@@ -329,7 +329,7 @@ var sayWord = function () { console.log('hello world.'); }();
 
 ```javascript
 // 最经常使用的匿名函数
-(function (msg) { 
+(function (msg) {
 	console.log(msg);
 } )('Hi');
 
@@ -409,7 +409,8 @@ function sum(x, y){ return x + y; }
 ## 函数可以调用自身（递归）
 函数调用自身完全是合法的。事实上，这是非常有名的编码模式。在如下代码中，
 
-```javascript
+
+```
 var coundDownFrom = function coundDownFrom(num){
 	console.log(num);
 	num--; //改变参数值
@@ -420,3 +421,4 @@ var coundDownFrom = function coundDownFrom(num){
 
 coundDownFrom(5); // 调用函数，输出 5,4,3,2,1,0
 ```
+

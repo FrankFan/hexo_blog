@@ -9,7 +9,7 @@ categories: javascript
 达到的效果是：点击页面上的按钮，通过传统的Javascript的Ajax方式从服务端取回一个"Hello Ajax!"的字符串显示在页面上。
 
 如图所示：
-![](http://images.cnblogs.com/cnblogs_com/fanyong/201208/201208111858399262.jpg)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyo1u75sj309p05m0sr.jpg)
 
 ## 二、前端准备
 

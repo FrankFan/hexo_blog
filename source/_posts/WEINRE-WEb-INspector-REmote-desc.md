@@ -30,11 +30,11 @@ WEINRE 是 WEb INspector REmote 的缩写， 可以远程调试web页面。
 开启本地监听服务器：
 `weinre --boundHost 172.19.17.62`
 
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828204957359-384833274.png)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyyz52rgj30lf04dt95.jpg)
 
 打开`http://172.19.17.62:8080` ,
 
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828205242469-1596822996.png)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyz28dyzj30o60k0n16.jpg)
 
 将这段脚本放在需要调试的手机页面中就可以远程调试了，
 
@@ -43,4 +43,4 @@ WEINRE 是 WEb INspector REmote 的缩写， 可以远程调试web页面。
 
 加载好之后就可以在remote tab下找到需要调试的页面了， 和chrome devTools类似， 也可以查看DOM元素和控制台等。
 
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828205740562-1922668759.png)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyz8bo8xj30mm0gnabs.jpg)

@@ -19,7 +19,7 @@ categories: 前端
 P.S.  Mac党、Linux党请飘过~
 
 先来一张全图看看：
-![](http://images.cnitblog.com/blog/282019/201410/171840464663450)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbz0o3wl9j30n90ggt9n.jpg)
 
 ## 配置ConsoleZ
 
@@ -32,11 +32,11 @@ P.S.  Mac党、Linux党请飘过~
 大小：13px
 
 
-![](http://images.cnitblog.com/blog/282019/201410/171843347019752)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbz0jxpe2j30fk0hs0u1.jpg)
 
-![](http://images.cnitblog.com/blog/282019/201410/171844042639186)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbz0f4cexj30f70fk0tm.jpg)
 
-![](http://images.cnitblog.com/blog2015/282019/201504/071832381963112)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbz0bglsbj30f70fkt9s.jpg)
 
 ### 快捷键
 
@@ -55,7 +55,7 @@ P.S.  Mac党、Linux党请飘过~
 Shell: "D:\Program Files (x86)\Git\bin\sh.exe" --login -i
 Startup dir: 项目目录地址
 
-![](http://images.cnitblog.com/blog/282019/201410/171844322326609)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbz06bffej30f70fk0tm.jpg)
 
 
 ## Q & A

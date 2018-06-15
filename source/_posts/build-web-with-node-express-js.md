@@ -8,9 +8,9 @@ categories: node
 Express 是一个简洁、灵活的 node.js Web 应用开发框架, 它提供一系列强大的特性，帮助你创建各种 Web 和移动设备应用。
 官网 [http://expressjs.com/](http://expressjs.com/)
 
-![](http://images.cnitblog.com/blog/282019/201412/042020025456314)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyoewybbj308a048t8k.jpg)
 
-![](http://images.cnitblog.com/blog/282019/201412/042022281396234)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyohvh59j30ax08fwf3.jpg)
 
 0. 安装node.js
 这个就略过。
@@ -62,4 +62,4 @@ $ set DEBUG=myapp & node myapp/bin/www
 
 正确的话就可以打开浏览器 http://localhost:3000/
 
-![](http://images.cnitblog.com/blog/282019/201412/041419547648313)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyomejx6j30du094dg2.jpg)

@@ -3,7 +3,7 @@ date: 2015-07-26 23:43:20
 categories: github
 ---
 
-![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151023234526395-1684962883.png)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbylrud3gj30kz08jjrl.jpg)
 
 就像第[一百天记录](http://fy98.com/2015/04/15/remember-git-push-100-days-continuously/)的一样，又在 `Github` 上持续 commit 了100天，达成200天新成就。
 

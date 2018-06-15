@@ -4,19 +4,19 @@ categories: mac
 ---
 
 1. 打开一张图片
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828112315234-1744095346.jpg)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyjjssrvj306g05pmx9.jpg)
 
 2. 双击背景或者右键`背景图层`，新建一个图层，
 
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828111126312-899279417.jpg)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyjpxlcrj30fp07f3yx.jpg)
 
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828112422625-1934153380.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyjyfgwbj306j050q33.jpg)
 
 3. 选择`魔棒`工具，单击图片， 会自动选择颜色相近的范围
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828111607390-503490833.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyk2jy96j30cn07dgm3.jpg)
 
 4. 按下键盘的`delete`键，就可以删除魔棒所选择的区域了。
-![](http://images2015.cnblogs.com/blog/282019/201508/282019-20150828113051156-1972218667.jpg)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyk77pjhj304t03waa1.jpg)
 
 如果还有一些不满意的小细节，可以使用放大镜工具放大图片，并将一些顽固的污点用橡皮擦擦除；
 或者直接使用工具栏中的矩形选择工具或套索工具进行选定。选定后按下Delete键就可以将所选区域删去了。

@@ -13,7 +13,7 @@ git flow 是规范化使用git branch 的一套方案来管理分支，规范代
 下载地址： [http://files.cnblogs.com/fanyong/gitflow_to_git_bin.7z](http://files.cnblogs.com/fanyong/gitflow_to_git_bin.7z)
 解压缩后放在git安装目录中的bin目录下。
 
-![](http://images.cnitblog.com/blog/282019/201411/272341057159647)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyvgntomj307207tmx1.jpg)
 
 ## 使用
 第一次使用先初始化，它会问你一系列问题，蛋定，一般采用默认参数一路回车即可。
@@ -37,7 +37,7 @@ Version tag prefix? []
 每个项目都有2个分支，master和develop分支，master分支是主分支，保证程序有一个稳定的版本，和线上代码是同步的 ； develop分支则是开发使用的分支，几乎所有的功能开发都要在该分支上进行。
 简单来说， git branch 把 branch 分成了2个主要分支 和 3个临时辅助分支：
 
-![](http://images.cnitblog.com/blog/282019/201411/272301037931948)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyvp73y7j30gz0mn77y.jpg)
 
 ### 主要分支
 * master分支：永远处在即将发布（production-ready）状态

@@ -3,7 +3,7 @@ date: 2015-01-28 22:46:30
 categories: javascript
 ---
 
-![](http://images.cnitblog.com/blog/282019/201502/082243438445578)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbzp7nw1zj306g04zmx7.jpg)
 
 ## 定义
 一谈到js闭包就不能不说js作用域、作用域链。我们知道，一个函数中嵌套另一个函数时，内部函数由于作用域链的存在，很容易访问外部函数的变量。可是，外部函数就没办法访问内部函数的变量。

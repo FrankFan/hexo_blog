@@ -21,11 +21,11 @@ $ ssh-keygen -t rsa -C "youremail@gmail.com"
 ```
 注意不要一路回车，要给这个文件起一个名字， 比如叫 id_rsa_github, 所以相应的也会生成一个 id_rsa_github.pub 文件。
 
-![](http://images.cnitblog.com/blog/282019/201409/091222268402433)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyyd4f3vj30ih04g74q.jpg)
 
 
 目录结构如下：
-![](http://images.cnitblog.com/blog/282019/201409/091222046992263)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyyguq7wj307804ua9w.jpg)
 
 ## 添加私钥
 ```bash

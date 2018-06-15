@@ -6,7 +6,7 @@ categories: css
 作为一个不太会写CSS的`伪前端`来说，用纯CSS画各种形状是一件很牛X的事情，今天就先画一个三角形吧。
 
 最终效果图：
-![](http://images.cnitblog.com/blog/282019/201412/041937581088177)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyptl50vj305t0480jc.jpg)
 
 html:
 
@@ -34,4 +34,4 @@ css部分定义宽度和高度都为0，border宽度是30px并且border-style是
 上、左是透明的，下、右使用rgba定义了黑色且透明度为0.6的颜色。
 
 同理， 可以修改`border-clor`属性画出各种形状：
-![](http://images.cnitblog.com/blog/282019/201412/042013314983349)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbypxmvzgj30en03ma9t.jpg)

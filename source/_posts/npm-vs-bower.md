@@ -3,7 +3,7 @@ date: 2014-12-10 19:43:51
 categories: 前端
 ---
 
-![](http://images.cnitblog.com/blog/282019/201412/141452253848646)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyypb1xtj30hm0780t3.jpg)
 
 众所周知，npm（Node Package Manager）是nodejs时代不可或缺的最好的包管理器，现在已经随nodejs官方包同时会安装到你的设备上去。只要给项目书写好package.json放于项目根目录，在重新部署之时只需要执行 `npm install` 一行简单的命令，所有相关的依赖就能够自动安装到项目目录下面，并且还能很方便的对不同项目的不同依赖包版本进行良好、统一的管理。
 

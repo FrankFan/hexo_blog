@@ -218,4 +218,4 @@ cat = (function(_this) {
 也就是说：`=>`（胖头号）可以直接获取父级作用域中的`this`关键字。
 
 ### 最后
-![](http://images.cnitblog.com/blog/282019/201410/092151423279522)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbzz16k7wj30g9097mxi.jpg)

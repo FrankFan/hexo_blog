@@ -19,7 +19,7 @@ categories: myworks
 
 于是就有了下面的这个插件：
 
-![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151030124148888-2018701784.jpg)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyor9ggij30je0e80tm.jpg)
 
 简单说就是可以将你本地的一张图片上传到博客园的图片服务器上，变成一个可访问的url。适用于写markdown文件时插入图片的情况。
 为什么要用博客园当图床呢？
@@ -31,11 +31,11 @@ categories: myworks
 
 使用方法很简单，点击`img-uploader`的`icon图标`，会打开一个新的页面，此时程序会判断你在博客园cnblogs.com的登录状态，如果没有登录，会提示用户先去博客园进行登录操作;
 
-![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151030113440794-1642761159.jpg)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyow9gyyj30i40be0t7.jpg)
 
 如果检测到你在博客园是登录状态，就可以上传图片：：
 
-![](http://images2015.cnblogs.com/blog/282019/201510/282019-20151030113445997-414524488.jpg)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyp1f9t8j311b0eggng.jpg)
 
 支持拖拽操作上传操作，还可以直接复制上传后图片的url。
 

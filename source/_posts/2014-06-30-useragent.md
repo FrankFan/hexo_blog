@@ -22,4 +22,4 @@ function isMobileDevice(ua) {
 
 ## chrome模拟手机
 F12调出开发者工具，可以模拟各种手机的useragent，注意有些细节和真是手机上还是有区别的，只能做参考。
-![](http://images.cnitblog.com/blog/282019/201409/052246327035827)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbynqn7xtj30ty0legsk.jpg)

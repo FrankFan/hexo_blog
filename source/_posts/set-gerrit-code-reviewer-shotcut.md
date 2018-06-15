@@ -31,4 +31,4 @@ git push origin HEAD:refs/for/develop%r=yp_liu,%r=y.fan
 ```
 然后使用 `git push test` 就可以了。
 
-![](http://images.cnitblog.com/blog/282019/201412/081652507121202)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbymb36hkj30lk092jrt.jpg)

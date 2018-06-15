@@ -5,9 +5,9 @@ categories: github
 
 趁周末休息来图书馆静下心来看看书，写写自己的代码，可是在执行 `git pull` 时却出现了 `ssh: connect to host github.com port 22: Bad file number` 的问题，仔细一想，很有可能是图书馆把ssh的22端口禁用掉了，一查发现还真是这样。
 
-![](http://images.cnitblog.com/blog/282019/201412/201537330942894)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbyr7ml90j30i504z74d.jpg)
 
-![](http://images.cnitblog.com/blog/282019/201412/201542298137242)
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fsbys9l2g9j30pb07ita4.jpg)
 
 ### 解决办法
 解决办法是：
@@ -22,4 +22,4 @@ port 443
 2)执行`ssh -T git@github.com`
 3)出现“Are you sure you want to continue connecting(yes/no)?”输入yes按一下“Enter”，出现成功提示即可
 
-![](http://images.cnitblog.com/blog/282019/201412/201558351575960)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbysifw6wj30p4061jrr.jpg)

@@ -81,7 +81,7 @@ java    6227 fanyong  254u  IPv6 0xf526b9f456b4bcf5      0t0  TCP *:etlservicemg
 
 `cmd + opt + esc` ，打开类似windows下任务管理器的快捷键。
 
-![](http://images2015.cnblogs.com/blog/282019/201509/282019-20150908132558965-1931754023.jpg)
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbz1p365qj30by0ah74y.jpg)
 
 
 ## 网络相关

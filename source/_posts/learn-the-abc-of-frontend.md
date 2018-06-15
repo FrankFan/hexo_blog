@@ -10,12 +10,12 @@ categories: 前端
 ## Angular
 一款优秀的前端js框架，WebApp的优秀解决方案。包含MVVM模式、自动化双向绑定等特色功能。现由 `google`维护，每个前端不能错过的框架。
 
-![](http://images.cnitblog.com/blog2015/282019/201504/162310471679265)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyxa8lgij306y01y0sv.jpg)
 
 ## Backbone
 `Backbone`小巧但很强大，基于MVC，上手容易，入门难度低，灵活性高。
 
-![backbone](http://images.cnitblog.com/blog2015/282019/201504/162315098543313)
+![backbone](https://ws1.sinaimg.cn/large/006tNc79gy1fsbyxe2a9pj30oz04gdfw.jpg)
 
 ## Console
 `Console API`虽然还没有成为一个正式标准，但是作为js调试利器，无人不知，无人不晓。
@@ -33,7 +33,7 @@ D3.js是一个用于网页作图、生成互动图形的JavaScript函数库。�
 Express 是一个简洁、灵活的 node.js Web 应用开发框架, 它提供一系列强大的特性，帮助你创建各种 Web 和移动设备应用。
 官网 [http://expressjs.com/](http://expressjs.com/)
 
-![](http://images.cnitblog.com/blog/282019/201412/042022281396234)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyxoewstj30ax08fwf3.jpg)
 
 ## Fork
 玩`github`的人都懂，`fork`本意是`叉子`之意，此处为`分支分流`的意思，执行`fork `动作后就会将别人的项目clone一份到自己的仓库，但是owner变成自己，目的是将来能够为项目贡献代码，一起 `social coding`.

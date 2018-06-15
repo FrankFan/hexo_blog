@@ -109,7 +109,7 @@ git remote add origin git@github.com:FrankFan/foobar.git
 修改项目跟目录下`.git/config`文件
 
 ### 二、`git push`出现 `fatal: The remote end hung up unexpectedly` 错误
-![](http://images.cnitblog.com/blog/282019/201501/212355499534868)
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fsbyssrtrwj30jb06nq37.jpg)
 
 这其实是一个`HTTP 411`错误，提示信息没有给完整，是因为是由于上传的包过大 HTTP 的头出错导致的，
 解决办法是将HTTP包头设置大一些，50MB应该可以满足项目需求
@@ -120,4 +120,4 @@ git config http.postBuffer 524288000
 
 配置完毕就正常了
 
-![](http://images.cnitblog.com/blog/282019/201501/212357422976424)
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fsbysvzi6yj30jf05vjrk.jpg)
