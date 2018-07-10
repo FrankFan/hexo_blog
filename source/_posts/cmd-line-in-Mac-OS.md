@@ -8,12 +8,12 @@ Mac没找到类似windows下进程管理器的GUI软件，通过命令也很简�
 
 ```bash
 # 找到要杀死进程的id
-$ ps -ef | grep idea  
+$ ps -ef | grep idea
 $ kill 91107
 $ ps -ef | grep m-web
 
 # 查看端口被哪个进程占用
-$ lsof -i:55010  
+$ lsof -i:55010
 COMMAND  PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
 java    6227 fanyong    9u  IPv4 0xf526b9f45ed7c075      0t0  TCP *:55010 (LISTEN)
 $ lsof -i:9001
@@ -58,6 +58,3 @@ $ zip -q -r -e -m -o '\user\someone\someDir\someFile.zip' '\users\someDir'
 # 解压缩
 $ unzip zippedfile.zip
 ```
-
-
-

@@ -34,4 +34,5 @@ css部分定义宽度和高度都为0，border宽度是30px并且border-style是
 上、左是透明的，下、右使用rgba定义了黑色且透明度为0.6的颜色。
 
 同理， 可以修改`border-clor`属性画出各种形状：
+
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbypxmvzgj30en03ma9t.jpg)

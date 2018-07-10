@@ -45,7 +45,7 @@ function Ajax() {
         return false;
     }
 
-    //实例化成功后，用open方法初始化XMLHttpRequest对象    
+    //实例化成功后，用open方法初始化XMLHttpRequest对象
     xmlHttpReq.open("GET", "Server.ashx", true); //调用open方法并采用异步方式
     xmlHttpReq.onreadystatechange = RequestCallBack; // 设置回调函数
 
