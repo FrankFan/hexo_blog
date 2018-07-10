@@ -1,0 +1,21 @@
+menu:
+    首页: /
+    归档: /archives/
+    关于: /about/
+    Rss: /atom.xml
+
+logo: /favicon.png
+favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.
+apple_icon: favicon.png  ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+# ga: UA-xxxxxxxx-x
+
+# Copyright Infomation
+startyear: 2014
