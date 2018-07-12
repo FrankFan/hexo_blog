@@ -7,16 +7,26 @@ categories: github
 
 使用git开发进行分支管理功能确实比TFS、SVN方便许多，推荐大家使用分支来做开发。git branch 虽然功能强大但是在团队开发中使用不当反而会降低工作效率，在这种情况下有牛人开发整理出一套比较好的方案 A successful Git branching model 来规范代码版本管理流程。
 
+<!-- more -->
+
 git flow 是规范化使用git branch 的一套方案来管理分支，规范代码流程。
 
 ## 安装
+
+- windows
 下载地址： [http://files.cnblogs.com/fanyong/gitflow_to_git_bin.7z](http://files.cnblogs.com/fanyong/gitflow_to_git_bin.7z)
 解压缩后放在git安装目录中的bin目录下。
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fsbyvgntomj307207tmx1.jpg)
 
+- Mac OS
+```bash
+# 安装git flow
+$ brew install git-flow
+```
+
 ## 使用
-第一次使用先初始化，它会问你一系列问题，蛋定，一般采用默认参数一路回车即可。
+第一次使用先初始化，它会问你一系列问题，蛋定，一般采用默认参数一路回车即可。也可以使用`git flow init -d`命令跳过。
 
 ```bash
 $ git flow init
@@ -73,7 +83,7 @@ Now, start committing on your feature. When done, use:
 $ git add .
 $ git commit -m 'update a new feature'
 
-# finish 
+# finish
 $ git flow feature finish td
 Switched to branch 'develop'
 Updating 85a4e89..b2740da
@@ -104,6 +114,10 @@ $ git flow releaes finish v1.0
 ```
 当你在完成（finish)一个发布分支时，它会把你所作的修改合并到master分支，同时合并回develop分支，所以，你不需要担心你的master分支比develop分支更加超前。
 
+![re](https://ws1.sinaimg.cn/large/006tKfTcly1ft75pje1c8j30qa09cq4s.jpg)
+
+
+
 ### hotfix分支
 最后一件让git-flow显得威武的事情是它处理热修复（即时的BugFix）的能力，你可以像其他分支一样地创建和完成一个热修复分支，区别是它基于master分支，因此你可以在产品出现问题时快速修复，然后通过”finish”命令把修改合并回master和develop分支。
 如果线上出现bug需要紧急修复，就可以使用hotfix分支
@@ -113,3 +127,8 @@ $ git flow hotfix start fixbug
 $ git flow hotfix finish fixbug
 ```
 最后一条命令会把 `hotfix` 合并到master和develop分支上，然后删除hotfix分支。
+
+
+
+
+
