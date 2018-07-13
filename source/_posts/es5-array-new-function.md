@@ -6,6 +6,8 @@ categories: javascript
 ECMAScript5标准发布于2009年12月3日，它带来了一些新的，改善现有的Array数组操作的方法。
 如果不考虑兼容性的话可以大面积使用了。
 
+<!-- more -->
+
 在ES5中，Array一共有10个方法：
 
 ```javascript
@@ -21,6 +23,18 @@ Array.prototype.reduce
 Array.prototype.reduceRight
 ```
 
+注意的是：
+- pop,push,shift,unshift, sort, reverse, splice `会改变原数组`
+- join,concat,indexOf,lastIndexOf,slice,toString `不会改变原数组`
+- map,filter,some,every,reduce,forEach 这些迭代方法`不会改变原数组`
+
+还有
+1. shift,pop会返回那个被删除的元素，一个数组前面、一个是数组后面的元素
+2. unshifu,push 会返回新数组长度
+3. some 在有true的时候停止
+4. every 在有false的时候停止
+5. splice 会返回被删除元素组成的数组，或者为空数组
+6. 上述的迭代方法可以在最后追加一个参数thisArg,它是执行 callback 时的 this 值
 
 ## 0. Array.isArray(value)
 
@@ -32,7 +46,7 @@ Array.isArray([]);
 Array.isArray([1]);
 Array.isArray(new Array());
 // 鲜为人知的事实：其实 Array.prototype 也是一个数组。
-Array.isArray(Array.prototype); 
+Array.isArray(Array.prototype);
 
 // 下面的函数调用都返回 false
 Array.isArray();
@@ -100,7 +114,7 @@ var arr = [
     {"name":"pear", "count": 3},
     {"name":"orange", "count": 16},
 ];
-    
+
 var newArr = [];
 
 for (var i = 0, l = arr.length; i < l; i++) {
@@ -168,11 +182,11 @@ var oldArr = [
     {
         first_name: "Colin",
         last_name: "Toh"
-    }, 
+    },
     {
         first_name: "Addy",
         last_name: "Osmani"
-    }, 
+    },
     {
         first_name: "Yehuda",
         last_name: "Katz"
@@ -202,11 +216,11 @@ var oldArr = [
     {
         first_name: "Colin",
         last_name: "Toh"
-    }, 
+    },
     {
         first_name: "Addy",
         last_name: "Osmani"
-    }, 
+    },
     {
         first_name: "Yehuda",
         last_name: "Katz"
@@ -302,7 +316,7 @@ function noPassValue(){
     return arr.reduce(function(prev,next){
         console.log("prev:",prev);
         console.log("next:",next);
-        
+
         return prev + " " +next;
     });
 }
@@ -310,7 +324,7 @@ function passValue(){
     return arr.reduce(function(prev,next){
         console.log("prev:",prev);
         console.log("next:",next);
-        
+
         prev[next] = 1;
         return prev;
     },{});
