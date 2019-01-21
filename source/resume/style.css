@@ -19,7 +19,7 @@ dl {
   display: none;
 }
 
-.container {
+.resume-container {
   width: 210mm;
   margin: 0 auto;
   background-color: #ffffff;
@@ -129,22 +129,22 @@ section ul.record-list li dl dd {
   background-position: left center;
 }
 #contact ul li.icon-home {
-  background-image: url(home.png);
+  background-image: url(./imgs/home.png);
 }
 #contact ul li.icon-phone {
-  background-image: url(mobile.png);
+  background-image: url(./imgs/mobile.png);
 }
 #contact ul li.icon-email {
-  background-image: url(mail.png);
+  background-image: url(./imgs/mail.png);
 }
 #contact ul li.icon-blog {
-  background-image: url(earth.png);
+  background-image: url(./imgs/earth.png);
 }
 #contact ul li.icon-github {
-  background-image: url(github.png);
+  background-image: url(./imgs/github.png);
 }
 #contact ul li.icon-weibo {
-  background-image: url(weibo.png);
+  background-image: url(./imgs/weibo.png);
 }
 
 #skills {
